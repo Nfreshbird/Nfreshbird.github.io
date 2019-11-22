@@ -5,19 +5,19 @@
   
 
   
-  <title>how to use lambda(python) | Hexo</title>
+  <title>how to use lambda(python) | ChongYang</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="python中的lambda   enjoy learning , enjoy life.    lambda匿名函数并不是python所独有的特点，很多其他语言也有这个特性，匿名函数有之所以被设计出来，我想最重要的原因就是编写简单的函数时不必再花时间取名字。  lambda函数最常应用的地方就是作为一个函数对象，被其他函数调用，对列表中的大量元素集中处理。 lambda函数语法 []代表可有可无">
+  <meta name="description" content="python中的lambda  enjoy learning , enjoy life.   lambda匿名函数并不是python所独有的特点，很多其他语言也有这个特性，匿名函数有之所以被设计出来，我想最重要的原因就是编写简单的函数时不必再花时间取名字。  lambda函数最常应用的地方就是作为一个函数对象，被其他函数调用，对列表中的大量元素集中处理。 lambda函数语法 []代表可有可无">
 <meta property="og:type" content="article">
 <meta property="og:title" content="how to use lambda(python)">
 <meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;22&#x2F;2019.11.22%20%E5%AD%A6%E4%B9%A0lambda%E8%AF%AD%E6%B3%95&#x2F;index.html">
-<meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="python中的lambda   enjoy learning , enjoy life.    lambda匿名函数并不是python所独有的特点，很多其他语言也有这个特性，匿名函数有之所以被设计出来，我想最重要的原因就是编写简单的函数时不必再花时间取名字。  lambda函数最常应用的地方就是作为一个函数对象，被其他函数调用，对列表中的大量元素集中处理。 lambda函数语法 []代表可有可无">
+<meta property="og:site_name" content="ChongYang">
+<meta property="og:description" content="python中的lambda  enjoy learning , enjoy life.   lambda匿名函数并不是python所独有的特点，很多其他语言也有这个特性，匿名函数有之所以被设计出来，我想最重要的原因就是编写简单的函数时不必再花时间取名字。  lambda函数最常应用的地方就是作为一个函数对象，被其他函数调用，对列表中的大量元素集中处理。 lambda函数语法 []代表可有可无">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-11-22T10:26:17.126Z">
+<meta property="og:updated_time" content="2019-11-22T10:32:18.765Z">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="ChongYang" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
@@ -36,7 +36,7 @@
   <div id="header-outer" class="outer">
     <div id="header-title" class="inner">
       <h1 id="logo-wrap">
-        <a href="/" id="logo">Hexo</a>
+        <a href="/" id="logo">ChongYang</a>
       </h1>
       
     </div>
@@ -84,11 +84,9 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="python中的lambda"><a href="#python中的lambda" class="headerlink" title="python中的lambda"></a>python中的lambda</h1><font size=2 aligh="left">
+        <h1 id="python中的lambda"><a href="#python中的lambda" class="headerlink" title="python中的lambda"></a>python中的lambda</h1><font size=2 >
 
-<blockquote>
 <p>enjoy learning , enjoy life. </p>
-</blockquote>
 <font size=4>
 lambda匿名函数并不是python所独有的特点，很多其他语言也有这个特性，匿名函数有之所以被设计出来，我想最重要的原因就是编写简单的函数时不必再花时间取名字。
 
@@ -123,12 +121,8 @@ lambda匿名函数并不是python所独有的特点，很多其他语言也有�
 
 
 <p>lambda text: int(text) if text.isdigit() else text.lower()<br>这段代码，将传入的text进行判断，如果是数字转化为数字，这里可以看上面的结果是23，而不是”23”,如果不是数字，则全部转化为小写。</p>
-<blockquote>
 <p>这里的lambad使用if else 条件时必须满足以下语法<br>lambda x : 语句1 if 条件1 [else 语句2 if 条件2][else 语句x if条件x] else 最后的语句</p>
-</blockquote>
-<blockquote>
 <p>实际上是这样的语法表示<br>lambda x : 语句1 if 条件1 else (语句2 if 条件2 else 语句3)</p>
-</blockquote>
 <p>总之 if 和 else 的数量必须相等</p>
 <p><strong>demo6 带多个if 和 else的lambda表达式</strong></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">func = lambda x : 1 if x==&quot;first&quot; else 2 if x==&quot;second&quot; else 3 if x==&quot;third&quot; else 4</span><br><span class="line">print(func(&quot;first&quot;)) # 1</span><br></pre></td></tr></table></figure>
